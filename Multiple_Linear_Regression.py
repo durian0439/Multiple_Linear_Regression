@@ -41,3 +41,5 @@ y_test=y_test.values
 
 new_data = np.array([1,0,0 , 210000,170000,500000 ]).reshape(1,-1)
 #state 컬럼을 one-hot encoding 했기 때문에 캘리포니아는 [1,0,0]을 입력한다.
+
+regressor.predict(new_data)
